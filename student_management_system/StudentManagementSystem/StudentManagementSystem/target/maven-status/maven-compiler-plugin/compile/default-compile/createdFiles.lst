@@ -1,0 +1,7 @@
+com\student\Student.class
+com\student\Launcher.class
+com\student\MainApp.class
+com\student\YearLevel.class
+com\student\DBConnection.class
+com\student\StudentManagementApplication.class
+com\student\Controller.class
