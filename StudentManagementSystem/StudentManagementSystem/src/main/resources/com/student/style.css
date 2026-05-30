@@ -1,0 +1,117 @@
+/* ── Root ─────────────────────────────────────── */
+.root-container {
+    -fx-background-color: #f0f2f5;
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* ── Header ──────────────────────────────────── */
+.header {
+    -fx-background-color: #1a73e8;
+    -fx-padding: 18 24 18 24;
+}
+.header-title {
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+/* ── Panels ──────────────────────────────────── */
+.form-panel {
+    -fx-background-color: white;
+    -fx-border-color: #dde1e7;
+    -fx-border-width: 0 0 1 0;
+}
+.table-panel {
+    -fx-background-color: white;
+    -fx-padding: 16 24 20 24;
+}
+
+/* ── Section labels ──────────────────────────── */
+.section-label {
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #444;
+    -fx-padding: 0 0 2 0;
+}
+
+/* ── Form controls ───────────────────────────── */
+.form-label {
+    -fx-font-size: 13px;
+    -fx-text-fill: #555;
+    -fx-font-weight: bold;
+}
+.form-input {
+    -fx-font-size: 13px;
+    -fx-padding: 6 10 6 10;
+    -fx-background-color: #f8f9fa;
+    -fx-border-color: #ced4da;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+}
+.form-input:focused {
+    -fx-border-color: #1a73e8;
+    -fx-background-color: white;
+}
+
+/* ── Buttons ─────────────────────────────────── */
+.btn-add, .btn-update, .btn-delete, .btn-clear {
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-padding: 8 14 8 14;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+.btn-add {
+    -fx-background-color: #28a745;
+    -fx-text-fill: white;
+}
+.btn-add:hover { -fx-background-color: #218838; }
+
+.btn-update {
+    -fx-background-color: #ffc107;
+    -fx-text-fill: #212529;
+}
+.btn-update:hover { -fx-background-color: #e0a800; }
+
+.btn-delete {
+    -fx-background-color: #dc3545;
+    -fx-text-fill: white;
+}
+.btn-delete:hover { -fx-background-color: #c82333; }
+
+.btn-clear {
+    -fx-background-color: #6c757d;
+    -fx-text-fill: white;
+}
+.btn-clear:hover { -fx-background-color: #5a6268; }
+
+/* ── Status label ────────────────────────────── */
+.status-label {
+    -fx-font-size: 12px;
+    -fx-font-style: italic;
+    -fx-padding: 0 0 0 2;
+}
+
+/* ── TableView ───────────────────────────────── */
+.student-table {
+    -fx-border-color: #dde1e7;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-font-size: 13px;
+}
+.student-table .column-header {
+    -fx-background-color: #1a73e8;
+}
+.student-table .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+}
+.student-table .table-row-cell:selected {
+    -fx-background-color: #d0e4ff;
+    -fx-text-fill: #111;
+}
+.student-table .table-row-cell:hover {
+    -fx-background-color: #e8f0fe;
+}
